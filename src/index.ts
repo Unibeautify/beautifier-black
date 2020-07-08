@@ -68,7 +68,7 @@ export const beautifier: Beautifier = {
     options,
   }: BeautifierBeautifyData) {
     const black = dependencies.get<ExecutableDependency>("Black");
-    const rootDir = projectPath || (filePath && path.basename(filePath));
+    const rootDir = projectPath || (filePath && path.dirname(filePath));
     const { wrap_line_length: wrapLineLength } = options;
     const args = ["--safe", "-"];
     if (wrapLineLength) {
