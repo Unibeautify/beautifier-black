@@ -43,7 +43,7 @@
     "tslint": "5.17.0",
     "tslint-clean-code": "0.2.9",
     "tslint-microsoft-contrib": "5.2.1",
-    "typescript": "2.9.2",
+    "typescript": "3.9.7",
     "unibeautify": "0.17.0"
   },
   "dependencies": {
